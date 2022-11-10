@@ -1,4 +1,4 @@
-function SampleNArrow(props) {
+function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
@@ -11,7 +11,7 @@ function SampleNArrow(props) {
   );
 }
 
-function SamplePrevArrow(props) {
+function PrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
@@ -26,7 +26,7 @@ function SamplePrevArrow(props) {
 
 const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     arrows: false,
     speed: 500,
     slidesToShow: 4,
@@ -66,8 +66,8 @@ const settings = {
       },
     ],
 
-    nextArrow: <SampleNArrow />,
-    prevArrow: <SamplePrevArrow />,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
   };
 
   export default settings

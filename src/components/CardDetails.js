@@ -4,7 +4,7 @@ function CardDetails({ item }) {
   return (
      <div className="card" style={{
         width: 350,
-        height: 450,
+        height: 650,
         border: "none",
         // backgroundColor: "#0d1117",
         color: "rgba(255, 255, 255, 0.5)",
